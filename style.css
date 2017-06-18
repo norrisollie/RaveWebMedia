@@ -14,7 +14,7 @@ body {
 }
 
 .frame img {
-	max-width: 100%;
+	max-width: 960px;
 }
 
 .content-container {
