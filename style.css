@@ -1,6 +1,19 @@
 @font-face {
-    font-family: "Ravensbourne Sans";
-    src: url(RavensbourneSans.woff);
+    font-family: "Ravensbourne Sans Regular";
+    src: url(fonts/RaveRegaular.otf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Ravensbourne Sans Bold";
+    src: url(fonts/RaveBold.otf);
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Ravensbourne Sans Extra Bold";
+    src: url(fonts/RaveExtraBold.otf);
+    font-weight: 600;
 }
 
 body {
