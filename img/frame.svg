@@ -7,10 +7,10 @@
 	.st1{fill:#FFFFFF;}
 	.st2{clip-path:url(#SVGID_2_);}
 	.st3{clip-path:url(#SVGID_4_);}
-	.st4{font-family:'RavensbourneSans-Bold';}
+	.st4{font-family:'Ravensbourne Sans'; font-weight: 500;}
 	.st5{font-size:82px;}
 	.st6{fill:none;}
-	.st7{font-family:'RavensbourneSans-ExtraBold';}
+	.st7{font-family:'Ravensbourne Sans'; font-weight: 600;}
 	.st8{font-size:72px;}
 	.st9{letter-spacing:-1;}
 </style>
