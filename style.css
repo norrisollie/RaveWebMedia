@@ -21,7 +21,7 @@ body {
 	font-weight: 400;
 }
 
-	.header-container {
+.header-container {
 	width: 100vw;
 	display: flex;
 	justify-content: center;
@@ -30,17 +30,21 @@ body {
 
 .frame {
 	max-width: 960px;
+	width: 100%;
 }
 
 .frame img {
 	max-width: 960px;
 	width: 100%;
+
 }
 
 .content-container {
+	position: relative;
 	width: 100vw;
 	display: flex;
 	justify-content: center;
+	background-color: #FFF;
 }
 
 .content {
@@ -52,6 +56,8 @@ body {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	margin-top: 75px;
+	background-color: #FFF;
+
 }
 
 .student-square {
