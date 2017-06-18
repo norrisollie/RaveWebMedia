@@ -60,7 +60,7 @@ body {
   margin-bottom: 10px;
 }
 
-.student-image > img {
+.student-image > object > img {
 	max-width: 100%;
 }
 
