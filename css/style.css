@@ -19,6 +19,7 @@
 body {
 	font-family: "Ravensbourne Sans";
 	font-weight: 400;
+	color: #242424;
 }
 
 .header-container {
@@ -180,6 +181,8 @@ body {
 
 .project-image {
 	width: 100%;
+	display: flex;
+	align-self: center;
 }
 
 .project-image > img {
