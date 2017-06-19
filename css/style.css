@@ -119,6 +119,10 @@ body {
 	order: 1;
 }
 
+.student-image-profiles > img {
+	max-width: 100%;
+}
+
 .student-expertise {
 	order: 3;
 	width: 33.33%;
@@ -131,12 +135,12 @@ body {
 	margin-bottom: 5px;
 }
 
-.student-expertise > h2 {
+.student-expertise > h2, .student-info > h2 {
 	margin: 0;
 	font-size: 18px;
 }
 
-.student-expertise > p {
+.student-expertise > p, .student-info > p {
 	margin: 0;
 	font-weight: 400;
 	margin-bottom: 10px;
