@@ -184,7 +184,7 @@ body {
 	width: 100%;
 	display: flex;
 	align-self: center;
-	margin-bottom: 10px; 
+	padding-bottom: 10px; 
 }
 
 .project-image > img {
