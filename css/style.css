@@ -119,6 +119,11 @@ body {
 	order: 1;
 }
 
+.student-expertise {
+	order: 3;
+	width: 100%;
+}
+
 .student-info > h1 {
 	margin: 0;
 	font-weight: 600;
