@@ -168,82 +168,27 @@ body {
 
 .project-container {
 	order: 3;
+	display: flex;
+	flex-direction: column;
+	margin-top: 20px;
 }
 
 .project {
 	display: flex;
-	width: 100%;
-	margin-top: 20px;
 }
 
 .project-image {
-	width: 25%;
+	width: 100%;
 }
+
 .project-image > img {
 	max-width: 100%;
 }
 
 .project-info {
-	width: 66.66%;
-	padding: 10px;
-}
-
-/*.student-info {
-	float: left;
-	width: 66.66%;
 	padding: 10px;
 	box-sizing: border-box;
-	order: 2;
 }
-
-.student-info-image {
-	float: right;
-	width: 33.33%;
-	order: 1;
-}
-
-.student-info-image > img {
-	max-width: 100%;
-	padding: 0 10px 10px 0;
-
-}
-
-
-
-.student-info > h1 {
-	margin: 0;
-	font-weight: 600;
-	font-size: 48px;
-	margin-bottom: 5px;
-}
-
-.student-info > h2 {
-	margin: 0;
-	font-size: 18px;
-}
-
-.student-info > p {
-	margin: 0;
-	font-weight: 400;
-	margin-bottom: 10px;
-	margin-top: 3px;
-	text-align: justify;
-}
-
-.student-info > p.expertise {
-	margin-bottom: 7px;
-}
-
-
-
-
-
-
-
-
-*/
-
-
 
 @media screen and (max-width: 768px) {
 
