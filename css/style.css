@@ -135,12 +135,18 @@ body {
 	margin-bottom: 5px;
 }
 
-.student-expertise > h2, .student-info > h2 {
+.project-info > h1 {
+	font-size: 36px;
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.student-expertise > h2, .student-info > h2, .project-info > h2 {
 	margin: 0;
 	font-size: 18px;
 }
 
-.student-expertise > p, .student-info > p {
+.student-expertise > p, .student-info > p, .project-info > p {
 	margin: 0;
 	font-weight: 400;
 	margin-bottom: 10px;
@@ -158,6 +164,27 @@ body {
 	margin-bottom: 3px;
 	background-color: #4fc3f7;
 	color: #FFF;
+}
+
+.project-container {
+	order: 3;
+}
+
+.project {
+	display: flex;
+	width: 100%;
+}
+
+.project-image {
+	width: 25%;
+}
+.project-image > img {
+	max-width: 100%;
+}
+
+.project-info {
+	width: 66.66%;
+	padding: 10px;
 }
 
 /*.student-info {
@@ -228,11 +255,11 @@ body {
 	}
 
 	.student-info {
-		order: 1;
+		/*order: 1;*/
 	}
 
 	.student-image {
-		order: 2;
+	/*	order: 2;*/
 	}
 
 	.student-expertise {
@@ -255,8 +282,24 @@ body {
 
 	.student-image {
 		order: 1;
-		width: 100%;
 		padding: 0;
+	}
+
+	.student-image-profiles {
+		width: 100%;
+	}
+
+	.project {
+		width: 100%;
+		flex-direction: column;
+	}
+
+	.project-image {
+		width: 100%;
+	}
+
+	.project-info {
+		width: 100%;
 	}
 
 }
