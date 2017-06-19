@@ -42,6 +42,8 @@ body {
 .content-container {
 	position: relative;
 	width: 100vw;
+	padding: 10px;
+	box-sizing: border-box;
 	display: flex;
 	justify-content: center;
 	background-color: #FFF;
@@ -105,19 +107,71 @@ body {
 	width: 33.33%;
 }
 
-.student-info > img {
-	max-width: 33.33%;
+.student-info {
+	width: 66.66%;
+	order: 2;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+.student-image {
+	width: 33.33%;
+	order: 1;
+}
+
+.student-info > h1 {
+	margin: 0;
+	font-weight: 600;
+	font-size: 48px;
+	margin-bottom: 5px;
+}
+
+.student-info > h2 {
+	margin: 0;
+	font-size: 18px;
+}
+
+.student-info > p {
+	margin: 0;
+	font-weight: 400;
+	margin-bottom: 10px;
+	margin-top: 3px;
+	text-align: justify;
+}
+
+.tag {
+	display: inline-block;
+	padding: 5px 10px;
+	background-color: red;
+	border-radius: 25px;
+	font-size: 12px;
+	margin-right: 3px;
+	margin-bottom: 3px;
+	background-color: #4fc3f7;
+	color: #FFF;
+}
+
+/*.student-info {
 	float: left;
+	width: 66.66%;
+	padding: 10px;
+	box-sizing: border-box;
+	order: 2;
+}
+
+.student-info-image {
+	float: right;
+	width: 33.33%;
+	order: 1;
+}
+
+.student-info-image > img {
+	max-width: 100%;
 	padding: 0 10px 10px 0;
 
 }
 
-.student-info {
-	display: inline-block;
-	width: 100%;
-	padding: 10px;
-	box-sizing: border-box;
-}
+
 
 .student-info > h1 {
 	margin: 0;
@@ -143,17 +197,6 @@ body {
 	margin-bottom: 7px;
 }
 
-.tag {
-	display: inline-block;
-	padding: 5px 10px;
-	background-color: red;
-	border-radius: 25px;
-	font-size: 12px;
-	margin-right: 3px;
-	margin-bottom: 3px;
-	background-color: #4fc3f7;
-	color: #FFF;
-}
 
 
 
@@ -161,6 +204,7 @@ body {
 
 
 
+*/
 
 
 
@@ -171,7 +215,15 @@ body {
 	}
 
 	.content {
-		margin: 10px;
+		margin-top: 5px;
+	}
+
+	.student-info {
+		order: 1;
+	}
+
+	.student-image {
+		order: 2;
 	}
 
 }
@@ -182,8 +234,16 @@ body {
 		width: calc(50% - 10px);
 	}
 
-	.student-info > img {
-		max-width: 100%;
+	.student-info {
+		width: 100%;
+		order: 2;
+		padding: 0;
+	}
+
+	.student-image {
+		order: 1;
+		width: 100%;
+		padding: 0;
 	}
 
 }
