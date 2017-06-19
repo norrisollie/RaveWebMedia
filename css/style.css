@@ -177,6 +177,7 @@ body {
 .project {
 	display: flex;
 	margin: 10px 0 10px 0;
+	border-bottom: 0.5px solid lightgrey;
 }
 
 .project-image {
