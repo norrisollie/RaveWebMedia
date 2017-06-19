@@ -121,7 +121,7 @@ body {
 
 .student-expertise {
 	order: 3;
-	width: 100%;
+	width: 33.33%;
 }
 
 .student-info > h1 {
@@ -131,12 +131,12 @@ body {
 	margin-bottom: 5px;
 }
 
-.student-info > h2 {
+.student-expertise > h2 {
 	margin: 0;
 	font-size: 18px;
 }
 
-.student-info > p {
+.student-expertise > p {
 	margin: 0;
 	font-weight: 400;
 	margin-bottom: 10px;
@@ -229,6 +229,10 @@ body {
 
 	.student-image {
 		order: 2;
+	}
+
+	.student-expertise {
+		width: 100%;
 	}
 
 }
