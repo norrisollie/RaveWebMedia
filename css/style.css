@@ -91,7 +91,7 @@ body {
 .student-name > span > .go-icon {
 	border: none;
 	background-color: transparent;
-	background-image: url(img/go.svg);
+	background-image: url(../img/go.svg);
 	background-size: 75%;
 	background-position: center;
 	background-repeat: no-repeat;
