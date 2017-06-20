@@ -109,19 +109,22 @@ body {
 }
 
 .student-info {
-	width: 66.66%;
-	order: 2;
+	width: 100%;
 	padding: 10px;
+	float: left;
 	box-sizing: border-box;
 }
 
 .student-image-profiles {
 	width: 33.33%;
-	order: 1;
+	float: right;
 }
 
-.student-image-profiles > img {
-	max-width: 100%;
+.student-info > img {
+	max-width: 33.33%;
+	float: right;
+	padding-left: 10px;
+	padding-bottom: 10px;
 }
 
 .student-expertise {
@@ -236,6 +239,23 @@ body {
 	background-color: #6fb543;
 }
 
+.full-width {
+	display: none;
+}
+
+.back-home {
+	width: 100%;
+	margin-bottom: 20px;
+}
+
+.home, .portfolio {
+	font-weight: 600;
+	color: #4fc3f7;
+}
+
+
+
+
 
 @media screen and (max-width: 768px) {
 
@@ -261,6 +281,10 @@ body {
 
 	.project-image {
 		width: 200%;
+	}
+
+	.student-info > img {
+		max-width: 50%;
 	}
 
 }
@@ -299,6 +323,20 @@ body {
 		width: 100%;
 	}
 
+	.full-width {
+		display: block;
+	}
+
+	.half-width {
+		display: none;
+	}
+
+	.student-info > img {
+		max-width: 100%;
+	}
+
+
+
 }
 
 @media screen and (max-width: 320px) {
@@ -306,6 +344,7 @@ body {
 	.student-square {
 		width: 100%
 	}
+
 
 }
 
