@@ -176,7 +176,7 @@ body {
 
 .project {
 	display: flex;
-	margin: 10px 0 10px 0;
+	margin: 0 0 10px 0;
 	border-bottom: 0.5px solid lightgrey;
 }
 
@@ -199,6 +199,43 @@ body {
 	flex-direction: column;
 	justify-content: center;
 }
+
+.tag .social {
+	background-color: #fdd110;
+}
+
+.tag .entertainment {
+	background-color: #039648;
+}
+
+.tag .education {
+	background-color: #ec7d23;
+}
+
+.tag .design {
+	background-color: #322e82;
+}
+
+.tag .digital-advertising {
+	background-color: #672b83;
+}
+
+.tag .development {
+	background-color: #1c9dd7;
+}
+
+.tag .creative-direction {
+	background-color: #e11f27;
+}
+
+.tag .services {
+	background-color: #e40981;
+}
+
+.tag .user-experience {
+	background-color: #6fb543;
+}
+
 
 @media screen and (max-width: 768px) {
 
