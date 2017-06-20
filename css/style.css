@@ -325,7 +325,7 @@ body {
 	}
 
 	.full-width {
-		display: block;
+		display: inline-block;
 	}
 
 	.half-width {
