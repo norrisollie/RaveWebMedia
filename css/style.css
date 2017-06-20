@@ -191,7 +191,8 @@ body {
 }
 
 .project-image > img {
-	max-width: 100%;
+	width: 100%;
+	max-width: 300px;
 	align-self: center;
 }
 
