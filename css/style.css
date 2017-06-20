@@ -298,12 +298,10 @@ body {
 
 	.student-info {
 		width: 100%;
-		order: 1;
 		padding: 0;
 	}
 
 	.student-image {
-		order: 1;
 		padding: 0;
 	}
 
